@@ -6,7 +6,7 @@
 [![Code Climate](http://img.shields.io/codeclimate/github/saladdays-nl/badgerkit.rb.svg)][codeclimate]
 [![Dependency Status](http://img.shields.io/gemnasium/saladdays-nl/badgerkit.rb.svg)][gemnasium]
 
-[gem]: https://rubygems.org/gems/alfred_rails
+[gem]: https://rubygems.org/gems/badgerkit
 [travis]: http://travis-ci.org/saladdays-nl/badgerkit.rb
 [coveralls]: https://coveralls.io/r/saladdays-nl/badgerkit.rb
 [codeclimate]: https://codeclimate.com/github/saladdays-nl/badgerkit.rb
