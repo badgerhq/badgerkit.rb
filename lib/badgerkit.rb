@@ -16,6 +16,13 @@ module Badgerkit
       Badgerkit::Client.new(options)
     end
 
+    ##
+    # Delegates to {Badgerkit::Client#post}
+    #
+    def post(*args)
+      new.post(*args)
+    end
+
   end # class << self
 
 end # Badgerkit
