@@ -28,17 +28,44 @@ $ bundle
 
 ## Usage
 
+Without environment variables:
+
 ```ruby
-Badgerkit::Client.new(
-  :source => 'github'
-  :repo   => 'saladdays-nl/badgerkit.rb'
-  :name   => 'Ruby documentation'
-).post(
+client = Badgerkit.new(
+  :access_token => '0dbce1478e94053d4282ccd4ace154c82a3475d5',
+  :source       => 'github',
+  :repo         => 'saladdays-nl/badgerkit.rb'
+)
+
+client.post('Documentation',
   :value       => 80,
   :commit_sha1 => '0dbce1478e94053d4282ccd4ace154c82a3475d5',
   :branch      => 'master'
 )
 ```
+
+With the following environment variables:
+
+```ruby
+ENV['BADGER_ACCESS_TOKEN'] = '0dbce1478e94053d4282ccd4ace154c82a3475d5'
+ENV['BADGER_SOURCE']       = 'github'
+ENV['BADGER_REPO']         = 'saladdays/badgerkit.rb'
+
+Badgerkit.post('Documentation',
+  :value       => 80,
+  :commit_sha1 => '0dbce1478e94053d4282ccd4ace154c82a3475d5',
+  :branch      => 'master'
+)
+```
+
+## Supported Ruby Versions
+
+This library is tested against Travis and aims to support the following Ruby
+implementations:
+
+* Ruby 1.9.3
+* Ruby 2.0.0
+* Ruby 2.1.1
 
 ## Contributing
 
