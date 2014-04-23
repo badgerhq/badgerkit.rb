@@ -40,7 +40,10 @@ module Badgekit
     #
     def post(attributes={})
       attributes = { :value => attributes }
-      response   = HTTParty.post("#{BASE_URI}#{path}", :body => attributes).parsed_response
+      response   = HTTParty.post("#{BASE_URI}#{path}",
+        :body    => attributes,
+        :headers => { 'Content-Type' => 'application/json' }
+      ).parsed_response
       response   = Hashie::Mash.new(response)
     end
 
