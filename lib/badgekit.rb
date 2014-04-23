@@ -11,7 +11,7 @@ module Badgekit
     #
     # @return [Badgekit::Client.]
     #
-    def new(*args)
+    def new(options={})
       @options = options
       Badgekit::Client.new(*args)
     end
