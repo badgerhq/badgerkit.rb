@@ -6,7 +6,7 @@ TODO: Write a gem description
 
 Add this line to your application's Gemfile:
 ```ruby
-gem 'badgekit', :group => [:development, :test]
+gem 'badgerkit', :group => [:development, :test]
 ```
 
 And then execute:
@@ -17,7 +17,7 @@ $ bundle
 ## Usage
 
 ```ruby
-Badgekit::Client.new(
+Badgerkit::Client.new(
   :source => 'github'
   :repo   => 'saladdays-nl/badgerkit.rb'
   :name   => 'Ruby documentation'

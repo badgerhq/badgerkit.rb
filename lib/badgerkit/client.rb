@@ -17,7 +17,7 @@ module Badgerkit
     # @option options [String] :name
     # @return [Badgerkit::Client]
     # @example
-    #   Badgekit::Client.new(
+    #   Badgerkit::Client.new(
     #     :source => 'github'
     #     :repo   => 'saladdays-nl/badgekit'
     #     :name   => 'Ruby documentation'
