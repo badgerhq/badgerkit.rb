@@ -4,21 +4,28 @@ module Badgekit
   #
   class Client
 
-    attr_reader :path
+    attr_reader :path, :source, :user, :name, :badge
 
     BASE_URI = 'http://badgerhq.com/'
 
     ##
     # Construct a new Badgekit::Client
     #
-    # @param source [String]
-    # @param user [String]
-    # @param name [String]
+    # @param options [Hash]
+    # @option options [String] :source
+    # @option options [String] :user
+    # @option options [String] :name
+    # @option options [String] :badge
     # @return [Badgekit::Client]
     # @example
     #   Badgekit::Client.new('github', 'saladdays-nl', 'badgekit')
     #
-    def initialize(source, user, name, badge)
+    def initialize(options={})
+      @source = options[:source]
+      @user   = options[:user]
+      @name   = options[:name]
+      @badge  = options[:badge]
+
       @path = URI.escape("#{source}/#{user}/#{name}/#{badge}")
     end
 
