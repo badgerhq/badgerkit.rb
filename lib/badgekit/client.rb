@@ -4,7 +4,7 @@ module Badgekit
   #
   class Client
 
-    attr_reader :path, :source, :user, :name, :badge
+    attr_reader :path, :source, :repo, :name
 
     BASE_URI = 'http://badgerhq.com/'
 
@@ -13,20 +13,23 @@ module Badgekit
     #
     # @param options [Hash]
     # @option options [String] :source
-    # @option options [String] :user
+    # @option options [String] :repo
     # @option options [String] :name
-    # @option options [String] :badge
     # @return [Badgekit::Client]
     # @example
-    #   Badgekit::Client.new('github', 'saladdays-nl', 'badgekit')
+    #   Badgekit::Client.new(
+    #     :source => 'github'
+    #     :repo   => 'saladdays-nl/badgekit'
+    #     :name   => 'Ruby documentation'
+    #   )
+    #
     #
     def initialize(options={})
       @source = options[:source]
-      @user   = options[:user]
+      @repo   = options[:repo]
       @name   = options[:name]
-      @badge  = options[:badge]
 
-      @path = URI.escape("#{source}/#{user}/#{name}/#{badge}")
+      @path = URI.escape("#{source}/#{repo}/#{name}")
     end
 
     ##
@@ -38,7 +41,6 @@ module Badgekit
     # @option attributes [String] :branch
     #
     # @example
-    #   client = Badgekit::Client.new('github', 'saladdays-nl', 'badgekit')
     #   client.post(
     #     :value       => 80,
     #     :commit_sha1 => '0dbce1478e94053d4282ccd4ace154c82a3475d5',
