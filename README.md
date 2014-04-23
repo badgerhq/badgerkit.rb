@@ -58,6 +58,15 @@ Badgerkit.post('Documentation',
 )
 ```
 
+## Supported Ruby Versions
+
+This library is tested against Travis and aims to support the following Ruby
+implementations:
+
+* Ruby 1.9.3
+* Ruby 2.0.0
+* Ruby 2.1.1
+
 ## Contributing
 
 1. Fork it ( http://github.com/<my-github-username>/badgekit/fork )
