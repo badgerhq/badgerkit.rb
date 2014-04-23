@@ -1,4 +1,4 @@
-module Badgekit
+module Badgerkit
   ##
   # Responsible for constructing a client which is able to post values.
   #
@@ -15,7 +15,7 @@ module Badgekit
     # @option options [String] :source
     # @option options [String] :repo
     # @option options [String] :name
-    # @return [Badgekit::Client]
+    # @return [Badgerkit::Client]
     # @example
     #   Badgekit::Client.new(
     #     :source => 'github'
@@ -54,4 +54,4 @@ module Badgekit
     end
 
   end # Client
-end # Badgekit
+end # Badgerkit

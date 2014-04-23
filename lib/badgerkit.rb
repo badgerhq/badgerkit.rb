@@ -1,15 +1,15 @@
-require "badgekit/version"
-require "badgekit/client"
+require "badgerkit/version"
+require "badgerkit/client"
 
-module Badgekit
+module Badgerkit
 
   ### Class methods
 
   class << self
 
-    # Alias for Badgekit::Client.new
+    # Alias for Badgerkit::Client.new
     #
-    # @return [Badgekit::Client.]
+    # @return [Badgerkit::Client.]
     #
     def new(options={})
       @options = options
@@ -18,4 +18,4 @@ module Badgekit
 
   end # class << self
 
-end # Badgekit
+end # Badgerkit
