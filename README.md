@@ -1,6 +1,18 @@
 # Badgerkit
 
-TODO: Write a gem description
+[![Gem Version](http://img.shields.io/gem/v/badgerkit.svg)][gem]
+[![Build Status](http://img.shields.io/travis/saladdays-nl/badgerkit.rb.svg)][travis]
+[![Coverage Status](http://img.shields.io/coveralls/saladdays-nl/badgerkit.rb.svg)][coveralls]
+[![Code Climate](http://img.shields.io/codeclimate/github/saladdays-nl/badgerkit.rb.svg)][codeclimate]
+[![Dependency Status](http://img.shields.io/gemnasium/saladdays-nl/badgerkit.rb.svg)][gemnasium]
+
+[gem]: https://rubygems.org/gems/badgerkit
+[travis]: http://travis-ci.org/saladdays-nl/badgerkit.rb
+[coveralls]: https://coveralls.io/r/saladdays-nl/badgerkit.rb
+[codeclimate]: https://codeclimate.com/github/saladdays-nl/badgerkit.rb
+[gemnasium]: https://gemnasium.com/saladdays-nl/badgerkit.rb
+
+Simple api wrapper for submitting data to http://badgerhq.com
 
 ## Installation
 
