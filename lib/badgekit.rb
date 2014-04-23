@@ -13,7 +13,7 @@ module Badgekit
     #
     def new(options={})
       @options = options
-      Badgekit::Client.new(*args)
+      Badgekit::Client.new(options)
     end
 
   end # class << self
