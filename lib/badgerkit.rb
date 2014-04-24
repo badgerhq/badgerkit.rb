@@ -9,7 +9,7 @@ module Badgerkit
 
     # Alias for Badgerkit::Client.new
     #
-    # @return [Badgerkit::Client.]
+    # @return [Badgerkit::Client]
     #
     def new(options={})
       @options = options
