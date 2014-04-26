@@ -40,7 +40,8 @@ client = Badgerkit.new(
 client.post('Documentation',
   :value       => 80,
   :commit_sha1 => '0dbce1478e94053d4282ccd4ace154c82a3475d5',
-  :branch      => 'master'
+  :branch      => 'master',
+  :archive     => Badgerkit.archive('doc/')
 )
 ```
 
@@ -54,7 +55,8 @@ ENV['BADGER_REPO']         = 'saladdays/badgerkit.rb'
 Badgerkit.post('Documentation',
   :value       => 80,
   :commit_sha1 => '0dbce1478e94053d4282ccd4ace154c82a3475d5',
-  :branch      => 'master'
+  :branch      => 'master',
+  :archive     => Badgerkit.archive('doc/')
 )
 ```
 
