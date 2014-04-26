@@ -8,8 +8,7 @@ module Badgerkit
 
     attr_reader :path, :access_token, :source, :repo
 
-    #BASE_URI = 'http://badgerhq.com/'
-    BASE_URI = 'http://badger.dev/'
+    BASE_URI = 'http://badgerhq.com/'
 
     ##
     # Construct a new Badgekit::Client
