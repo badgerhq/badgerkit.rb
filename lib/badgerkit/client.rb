@@ -3,12 +3,13 @@ module Badgerkit
   # Responsible for constructing a client which is able to post values.
   #
   class Client
-    require 'httparty'
+    require 'httmultiparty'
     require 'hashie'
 
     attr_reader :path, :access_token, :source, :repo
 
-    BASE_URI = 'http://badgerhq.com/'
+    #BASE_URI = 'http://badgerhq.com/'
+    BASE_URI = 'http://badger.dev/'
 
     ##
     # Construct a new Badgekit::Client
@@ -61,7 +62,7 @@ module Badgerkit
     #
     def post(badge, attributes={})
       attributes = { :value => attributes, :access_token => access_token }
-      response   = HTTParty.post("#{BASE_URI}#{path_for(badge)}", :body => attributes).parsed_response
+      response   = HTTMultiParty.post("#{BASE_URI}#{path_for(badge)}", :body => attributes).parsed_response
       response   = Hashie::Mash.new(response)
     end
 

@@ -23,6 +23,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'coveralls'
   spec.add_development_dependency 'rspec', '>= 2.3'
 
-  spec.add_dependency "httparty"
+  spec.add_dependency "httmultiparty"
   spec.add_dependency "hashie"
+  spec.add_dependency 'rubyzip', '>= 1.0.0'
+  spec.add_dependency 'zip-zip'
 end
