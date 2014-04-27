@@ -24,6 +24,8 @@ module Badgerkit
     ##
     # Delegates to {Badgerkit::Client#post}
     #
+    # @return [Hashie::Mash]
+    #
     def post(*args)
       new.post(*args)
     end

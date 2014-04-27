@@ -22,7 +22,6 @@ module Badgerkit
     # @option options [String] :source
     # @option options [String] :app
     # @option options [String] :name
-
     # @return [Badgerkit::Client]
     # @example
     #   client = Badgerkit::Client.new(
@@ -55,7 +54,8 @@ module Badgerkit
     # @option attributes [String, Integer, Float] :value
     # @option attributes [String] :commit_sha1
     # @option attributes [String] :branch
-    #
+    # @option attributes [File] :archive
+    # @return [Hashie::Mash]
     # @example
     #   client.post('Documentation',
     #     :value       => 80,
