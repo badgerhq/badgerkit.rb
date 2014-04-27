@@ -2,6 +2,9 @@ require "badgerkit/version"
 require "badgerkit/client"
 require "badgerkit/archive"
 
+##
+# Ruby toolkit for the Badgerkit api.
+#
 module Badgerkit
 
   ### Class methods

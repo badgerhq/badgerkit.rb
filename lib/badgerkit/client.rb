@@ -1,6 +1,7 @@
 module Badgerkit
   ##
-  # Responsible for constructing a client which is able to post values.
+  # Responsible for constructing a client
+  # which is able to post values to badgherhq.com
   #
   class Client
     require 'httmultiparty'
@@ -8,10 +9,13 @@ module Badgerkit
 
     attr_reader :path, :access_token, :source, :repo
 
+    ##
+    # The base uri the perform requests to.
+    #
     BASE_URI = 'http://badgerhq.com/'
 
     ##
-    # Construct a new Badgekit::Client
+    # Construct a new Badgerkit::Client
     #
     # @param options [Hash]
     # @option token [String] :token
@@ -21,7 +25,7 @@ module Badgerkit
 
     # @return [Badgerkit::Client]
     # @example
-    #   Badgerkit::Client.new(
+    #   client = Badgerkit::Client.new(
     #     :access_token => '0dbce1478e94053d4282ccd4ace154c82a3475d5',
     #     :source       => 'github',
     #     :repo         => 'saladdays-nl/badgerkit'

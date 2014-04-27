@@ -1,4 +1,11 @@
 module Badgerkit
+  ##
+  # Adds ability to archive directories to {Badgerkit}.
+  #
+  # @see Badgerkit.archive
+  # @example
+  #   Badgerkit.archive('js-doc/')
+  #
   class Archive
     require 'rubygems'
     require 'zip'
