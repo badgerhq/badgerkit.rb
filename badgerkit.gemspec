@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Johan van Zonneveld"]
   spec.email         = ["johan@vzonneveld.nl"]
   spec.summary       = "Toolkit for badgerhq.com"
-  spec.description   = "Write a description"
+  spec.description   = "Simple api wrapper for submitting data to badgerhq.com"
   spec.homepage      = "https://github.com/saladdays-nl/badgerkit.rb"
   spec.license       = "MIT"
 
