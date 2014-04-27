@@ -39,7 +39,7 @@ describe Badgerkit::Client do
         :repo         => 'saladdays/badgerkit.rb',
       )
 
-      HTTMultiParty.stub(:post).and_return(HTTPartyProxy.new)
+      HTTMultiParty.stub(:post).and_return(ResponseProxy.new)
       HTTMultiParty.should_receive(:post).with("http://badgerhq.com/github/saladdays/badgerkit.rb/Documentation",
         :body => {
           :value => {

@@ -16,7 +16,7 @@ module Badgerkit
 
         File.delete(filename) rescue nil # Make sure there's not already an archive
 
-        ## Zip the direvory
+        ## Zip the directory
         Zip::File.open(filename, Zip::File::CREATE) do |zipfile|
           Dir[File.join(directory, '**', '**')].each do |file|
             zipfile.add(file.sub(directory, ''), file)

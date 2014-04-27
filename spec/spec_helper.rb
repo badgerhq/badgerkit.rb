@@ -3,7 +3,7 @@
 require 'coveralls'
 Coveralls.wear!
 
-require 'support/httparty_proxy'
+require 'support/response_proxy'
 
 ## Rspec
 

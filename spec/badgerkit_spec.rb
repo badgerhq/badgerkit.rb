@@ -24,4 +24,13 @@ describe Badgerkit do
 
   end
 
+  describe '.archive' do
+
+    it 'should delegate to Badgerkit::Archive#archive' do
+      Badgerkit::Archive.should_receive(:archive).with('spec/fixtures/archive_folder/')
+      Badgerkit.archive('spec/fixtures/archive_folder/')
+    end
+
+  end
+
 end

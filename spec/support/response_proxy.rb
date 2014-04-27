@@ -1,5 +1,5 @@
 # @private
-class HTTPartyProxy
+class ResponseProxy
 
   attr_reader :parsed_response
 
