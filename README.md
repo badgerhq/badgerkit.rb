@@ -1,4 +1,4 @@
-# <a href="https://badgerhq.com"><img src="https://d87fcfg6nirfp.cloudfront.net/logo-medium.png" height="60"></a>
+# badgerkit
 
 [![Gem Version](http://img.shields.io/gem/v/badgerkit.svg)][gem]
 [![Build Status](http://img.shields.io/travis/saladdays-nl/badgerkit.rb.svg)][travis]
@@ -76,3 +76,7 @@ implementations:
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+---
+
+<a href="https://badgerhq.com"><img src="https://d87fcfg6nirfp.cloudfront.net/logo-medium.png" height="40"></a>
