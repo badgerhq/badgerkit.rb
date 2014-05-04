@@ -12,7 +12,7 @@
 [codeclimate]: https://codeclimate.com/github/saladdays-nl/badgerkit.rb
 [gemnasium]: https://gemnasium.com/saladdays-nl/badgerkit.rb
 
-Simple api wrapper for submitting data to http://badgerhq.com
+Simple api wrapper for submitting data to https://badgerhq.com
 
 ## Installation
 
