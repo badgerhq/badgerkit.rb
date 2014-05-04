@@ -1,16 +1,16 @@
 # badgerkit
 
 [![Gem Version](http://img.shields.io/gem/v/badgerkit.svg)][gem]
-[![Build Status](http://img.shields.io/travis/saladdays-nl/badgerkit.rb.svg)][travis]
-[![Coverage Status](http://img.shields.io/coveralls/saladdays-nl/badgerkit.rb.svg)][coveralls]
-[![Code Climate](http://img.shields.io/codeclimate/github/saladdays-nl/badgerkit.rb.svg)][codeclimate]
-[![Dependency Status](http://img.shields.io/gemnasium/saladdays-nl/badgerkit.rb.svg)][gemnasium]
+[![Build Status](http://img.shields.io/travis/badgerhq/badgerkit.rb.svg)][travis]
+[![Coverage Status](http://img.shields.io/coveralls/badgerhq/badgerkit.rb.svg)][coveralls]
+[![Code Climate](http://img.shields.io/codeclimate/github/badgerhq/badgerkit.rb.svg)][codeclimate]
+[![Dependency Status](http://img.shields.io/gemnasium/badgerhq/badgerkit.rb.svg)][gemnasium]
 
 [gem]: https://rubygems.org/gems/badgerkit
-[travis]: http://travis-ci.org/saladdays-nl/badgerkit.rb
-[coveralls]: https://coveralls.io/r/saladdays-nl/badgerkit.rb
-[codeclimate]: https://codeclimate.com/github/saladdays-nl/badgerkit.rb
-[gemnasium]: https://gemnasium.com/saladdays-nl/badgerkit.rb
+[travis]: http://travis-ci.org/badgerhq/badgerkit.rb
+[coveralls]: https://coveralls.io/r/badgerhq/badgerkit.rb
+[codeclimate]: https://codeclimate.com/github/badgerhq/badgerkit.rb
+[gemnasium]: https://gemnasium.com/badgerhq/badgerkit.rb
 
 Simple api wrapper for submitting data to https://badgerhq.com
 
