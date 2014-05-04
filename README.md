@@ -1,4 +1,4 @@
-# Badgerkit
+# <a href="https://badgerhq.com"><img src="https://d87fcfg6nirfp.cloudfront.net/logo-medium.png" height="60"></a>
 
 [![Gem Version](http://img.shields.io/gem/v/badgerkit.svg)][gem]
 [![Build Status](http://img.shields.io/travis/saladdays-nl/badgerkit.rb.svg)][travis]
@@ -12,9 +12,7 @@
 [codeclimate]: https://codeclimate.com/github/saladdays-nl/badgerkit.rb
 [gemnasium]: https://gemnasium.com/saladdays-nl/badgerkit.rb
 
-Simple api wrapper for submitting data to
-
-<a href="https://badgerhq.com"><img src="https://d87fcfg6nirfp.cloudfront.net/logo-medium.png" height="60"></a>
+Simple api wrapper for submitting data to https://badgerhq.com
 
 ## Installation
 
