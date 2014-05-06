@@ -34,7 +34,7 @@ Without environment variables:
 client = Badgerkit.new(
   :access_token => '0dbce1478e94053d4282ccd4ace154c82a3475d5',
   :source       => 'github',
-  :repo         => 'saladdays-nl/badgerkit.rb'
+  :repo         => 'badgerhq/badgerkit.rb'
 )
 
 client.post('Documentation',
@@ -50,7 +50,7 @@ With the following environment variables:
 ```ruby
 ENV['BADGER_ACCESS_TOKEN'] = '0dbce1478e94053d4282ccd4ace154c82a3475d5'
 ENV['BADGER_SOURCE']       = 'github'
-ENV['BADGER_REPO']         = 'saladdays/badgerkit.rb'
+ENV['BADGER_REPO']         = 'badgerhq/badgerkit.rb'
 
 Badgerkit.post('Documentation',
   :value       => 80,
