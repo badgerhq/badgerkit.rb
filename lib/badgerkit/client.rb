@@ -12,7 +12,7 @@ module Badgerkit
     ##
     # The base uri the perform requests to.
     #
-    BASE_URI = 'https://badgerhq.com/'
+    BASE_URI = 'https://badgerhq.com/api/v1/'
 
     ##
     # Construct a new Badgerkit::Client
